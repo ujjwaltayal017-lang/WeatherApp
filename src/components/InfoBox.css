@@ -1,0 +1,45 @@
+.InfoBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.cardContainer {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardContainer:hover {
+  transform: translateY(-6px);
+}
+
+.MuiCard-root {
+  border-radius: 18px !important;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.MuiCardMedia-root {
+  height: 220px !important;
+}
+
+.weatherTitle {
+  text-align: center;
+  font-weight: bold !important;
+  color: #1976d2;
+}
+
+.weatherDetails {
+  margin-top: 10px;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.weatherDetails p {
+  margin: 8px 0;
+}
+
+.weatherType {
+  color: #1976d2;
+  font-weight: bold;
+  text-transform: capitalize;
+}
